@@ -16,7 +16,7 @@ logging.langsmith("Perplexity")
 
 st.title("Perplexity 💬")
 st.markdown(
-    "LLM에 **웹검색 기능** 을 추가한 [Perplexity](https://www.perplexity.ai/) 클론 입니다. _멀티턴_ 대화를 지원합니다."
+    "LLM에 **웹검색 기능** 을 추가한 서비스입니다. _멀티턴_ 대화를 지원합니다."
 )
 
 # 대화기록을 저장하기 위한 용도로 생성
@@ -36,7 +36,7 @@ with st.sidebar:
     # 초기화 버튼 생성
     clear_btn = st.button("대화 초기화")
 
-    st.markdown("made by [@teddynote](https://youtube.com/c/teddynote)")
+    st.markdown("made by Suminseo")
 
     # 모델 선택 메뉴
     selected_model = st.selectbox("LLM 선택", ["gpt-4o", "gpt-4o-mini"], index=0)
